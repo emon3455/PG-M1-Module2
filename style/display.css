@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: aquamarine;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.intro{
+    background-color: #4aa6b6;
+    color: rgb(250, 250, 250);
+    width: 100px;
+    height: 100px;
+    display: none;
+    /* change display and see the magic of display "inline-block" , "block" , "inline" */
+}
+
+section{
+    background-color: yellow;
+    height: 40vh;
+    width: 100vw;
+}
+
+article{
+    background-color: coral;
+    height: 45vh;
+    width: 100vw;
+}
+
+input[type= "text"] {
+    margin: 1rem;
+	background-color: #4aa6b6;
+}
+
+
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    border: 2px solid yellow;
+}

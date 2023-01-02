@@ -1,0 +1,20 @@
+
+h1{
+    text-align: center;
+}
+
+.header{
+    height: 500px;
+    background-color: yellow;
+    background-image: url("../Picture/Logo/discount.webp");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 4% 0%; /* left/right(4%) , up/down(2%)*/
+}
+
+section{
+    height: 200px;
+    width: 50%;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px violet;
+}
